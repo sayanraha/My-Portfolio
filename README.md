@@ -23,7 +23,7 @@ This portfolio serves as a showcase of my abilities, projects, and background. F
 
 ### Prerequisites
 
-None required; simply visit the live version at [myportfolio.sayanraha.com](http://myportfolio.sayanraha.com/) or clone the repository to view the source files.
+None required; simply visit the live version at [sayan-raha-portfolio.vercel.app](https://sayan-raha-portfolio.vercel.app/) or clone the repository to view the source files.
 
 ### Installing Locally
 
@@ -44,7 +44,7 @@ The following features are included in this portfolio:
 
 ## Deployment
 
-This project utilizes Vercel for deployment. To access the live version, navigate to [myportfolio.sayanraha.com](http://myportfolio.sayanraha.com/).
+This project utilizes Vercel for deployment. To access the live version, navigate to [sayan-raha-portfolio.vercel.app](https://sayan-raha-portfolio.vercel.app/).
 
 ## Contribution Guidelines
 
