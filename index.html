@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Nav menu -->
+    <div class="container">
+      <nav id="header">
+        <div class="nav-logo">
+          <p class="nav-name">Portfolio</p>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link active-link">Home</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#about" class="nav-link">About</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#projects" class="nav-link">Projects</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav-link">Contact</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+
+
+
+        <!-- Dark Mode -->
+        <div class="mode">
+          <div class="moon-sun" id="toggle-switch">
+            <i class="fa fa-moon" id="moon"></i>
+            <i class="fa fa-sun" id="sun"></i>
+          </div>
+        </div>
+        <div class="nav-menu-btn">
+          <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+      <!--Main-->
+
+      <main class="wrapper">
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="hello">
+              <p>Hello I'm a</p>
+            </div>
+
+            <div class="featured-name">
+              <span class="typedText"></span>
+            </div>
+
+            <div class="text-info">
+              <p>
+                My name is Sayan Raha! I am a Final year undergraduate exploring the digital frontier, poised to innovate and shape the future of web development.
+              </p>
+            </div>
+
+            <div class="text-btn">
+             <a href="SayanRaha.pdf" download> <button class="btn" >
+                Download CV<i class="uil uil-file"></i>
+              </button></a>
+            </div>
+
+            <div class="socical_icons">
+              <div class="icons_circle"></div>
+              <div class="icon"><a href="https://www.instagram.com/sayan.raha.77/" target="_blank"><i class="uil uil-instagram"></i></a></div>
+              <div class="icon"><a href="https://www.linkedin.com/in/sayan-raha/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+              <div class="icon"><a href="https://github.com/sayanraha" target="_blank"><i class="uil uil-github-alt"></i></a></div>
+              <div class="icon"><a href="https://twitter.com/SayanRaha77" target="_blank"><i class="uil uil-twitter-alt"></i></a></div>
+            </div>
+          </div>
+
+          <div class="featured-image">
+
+            <div class="image">
+              <img src="sayan.png" alt="" />
+            </div>
+
+          </div>
+        </section>
+
+        <!--about box-->
+        <section class="section" id="about">
+          <div class="top-header">
+            <h1>About me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="about-info">
+                <figure class="about-me">
+                  <figcaption>
+                   
+                    <h2>Biography</h2>
+                    <p>
+                      I am a final year undergraduate student pursuing a Bachelor's degree in Computer Science and Engineering (CSE), with a fervent interest in frontend web development and a penchant for solving complex problems in data structures and algorithms. With a robust proficiency in a diverse array of programming languages and technologies including C, C++, HTML5, CSS3, JavaScript, SQL, Git, GitHub, and VSCode, I demonstrate a versatile skill set poised for success in the tech industry.
+
+Having received my foundational education at Young Horizons School, I have since embarked on a journey marked by continuous learning and growth. Actively engaging in hackathons and online coding tests, I have honed my problem-solving abilities, consistently pushing the boundaries of my knowledge and expertise. My dedication to mastering data structures and algorithms is evident in my completion of over 330 problems on platforms like LeetCode and GeeksforGeeks, supplemented by relevant certifications in the field.
+
+My passion for frontend web development is showcased through my hands-on experience in building products that marry functionality with aesthetics. Leveraging my skills in HTML5, CSS3, and JavaScript, I craft intuitive user interfaces that elevate the user experience.
+
+With a track record of proactive learning, practical application, and participation in coding competitions, I am poised to make significant contributions to the technology landscape upon graduation. My blend of technical prowess, problem-solving acumen, and creative ingenuity positions me as a valuable asset in the field of software engineering.
+                    </p>
+                  </figcaption>
+                </figure>
+                <a href="#contact"><button class="about-me-btn">Hire Me</button></a>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-box">
+                <span class="title">HTML5</span>
+                <div class="skill-bar ">
+                  <span class="skill-per html">
+                    <span class="tooltip">70%</span>
+                  </span>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <span class="title">CSS3</span>
+                <div class="skill-bar ">
+                  <span class="skill-per css">
+                    <span class="tooltip">60%</span>
+                  </span>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <span class="title">JavaScript</span>
+                <div class="skill-bar">
+                  <span class="skill-per javascript">
+                    <span class="tooltip">75%</span>
+                  </span>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <span class="title">C++</span>
+                <div class="skill-bar">
+                  <span class="skill-per cpp">
+                    <span class="tooltip">70%</span>
+                  </span>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <span class="title">C</span>
+                <div class="skill-bar">
+                  <span class="skill-per c">
+                    <span class="tooltip">65%</span>
+                  </span>
+                </div>
+              </div>
+
+             
+
+              <div class="skill-box">
+                <span class="title">MySQL</span>
+                <div class="skill-bar">
+                  <span class="skill-per sql">
+                    <span class="tooltip">60%</span>
+                  </span>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <span class="title">Git & GitHub</span>
+                <div class="skill-bar">
+                  <span class="skill-per git">
+                    <span class="tooltip">70%</span>
+                  </span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        <!--Projects box-->
+        <section class="section" id="projects">
+          <div class="top-header">
+            <h1>Projects</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box" id="sky">
+              <!--<i class="uil uil-briefcase-alt"></i>-->
+              <img src="https://t3.ftcdn.net/jpg/04/67/43/06/360_F_467430693_XWxvbSt8j99IFR7ynIBLP8nL1KuLcPsQ.jpg" alt="" height="150px" width="200px">
+              <a href="https://skyscanner-sayanraha.netlify.app/" target="_blank"><i class="fa fa-external-link" aria-hidden="true" ></i></a>
+              <h3>SkyScanner</h3>
+              <label>SkyScanner is an online real time weather application which allows users to get current day and next 5 days weather forecast for any city in the world, or simply see their current location’s weather details.</label>
+            </div>
+            <div class="project-box" id="worldwide">
+              <!--<i class="uil uil-users-alt"></i>-->
+              <img src="https://img.freepik.com/free-vector/indian-rupee-composition-with-flat-design_23-2147992019.jpg" alt="" height="150px" width="200px">
+              <a href="https://sayanworldwideexchange.netlify.app/" target="_blank"><i class="fa fa-external-link" aria-hidden="true" ></i></a>
+              <h3>World Wide Exchange</h3>
+              <label>World Wide Exchange is a currency converter web application that allows you to convert your currency to a different country's currency. </label>
+            </div>
+
+            <div class="project-box" id="calculex">
+
+              <!--<i class="uil uil-award-alt"></i>-->
+              <img src="https://play-lh.googleusercontent.com/-C-k_K4DcpBe_YIu0qfom9Pjp5fREwy-c9dh0hEuT6xdFBsZyKje0YakPctRlgjZbA=w240-h480-rw" alt="" height="150px" width="200px">
+              <a href="https://sayan-calculex.netlify.app/" target="_blank"><i class="fa fa-external-link" aria-hidden="true" ></i></a>
+              <h3>Calculex</h3>
+              <label>Calculex is a simple calculator that allows you to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.</label>
+            </div>
+            
+            
+          </div>
+        </section>
+        <!--Contact box-->
+        <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Let's Work together</h1>
+            <span>Do you have a project in mind, contact me here</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="contact-info">
+                <h2>Contact me <i class="uil uil-corner-right-down"></i></h2>
+                <p>
+                  <i class="uil uil-envelope"></i>Email : rahasayan69@gmail.com
+                </p>
+                <p><i class="uil uil-phone"> </i>Phone : +91 9875652137</p>
+              </div>
+            </div>
+
+
+
+
+
+            <div class="col">
+              <div class="form-control">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                <div class="form-inputs">
+                  <input type="hidden" name="access_key" value="f6188807-68a3-480a-b5c0-0b95667c714f">
+                  <input
+                    type="text"
+                    name="name"
+                    class="input-field"
+                    placeholder="Your Name"
+                    required
+                  />
+                  <input
+                  type="email"
+                  name="email"
+                    class="input-field"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+                <div class="text-area">
+                 <!--<input
+                    type="text"
+                    class="input-subject"
+                    placeholder="Subject"
+                  />
+                  --> 
+                  <textarea name="message" placeholder="Message" required></textarea>
+                </div>
+                <div class="form-button">
+                  <button type="submit" class="btn">
+                    Submit <i class="uil uil-message"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- Footer-->
+      <footer>
+        <div class="middle-footer">
+          <ul class="footer-menu">
+            <li class="footer_menu_list">
+              <a href="#home">Home</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#about">About</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-icons">
+          <div class="icon"><a href="https://www.instagram.com/sayan.raha.77/" target="_blank"><i class="uil uil-instagram"></i></a></div>
+              <div class="icon"><a href="https://www.linkedin.com/in/sayan-raha/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+              <div class="icon"><a href="https://github.com/sayanraha" target="_blank"><i class="uil uil-github-alt"></i></a></div>
+              <div class="icon"><a href="https://twitter.com/SayanRaha77" target="_blank"><i class="uil uil-twitter-alt"></i></a></div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Sayan Raha</a> - All rights reserved 2024</p>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
